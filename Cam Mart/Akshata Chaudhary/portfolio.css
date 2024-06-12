@@ -1,0 +1,83 @@
+
+/*CSS for my portfolio*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.hero{
+ 
+  width: 53%;
+  height: 100vh;
+  background: white;
+}
+
+.name{
+  font-size: 42px;
+  font-weight: bolder;
+  padding-top: 140px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #121b22;
+  transform: translate(20px, -30px);
+}
+.abtme{
+
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #252222;
+  margin-top: 21px;
+  transform: translate(20px, -30px);
+  width: 560px;
+
+}
+
+
+span{
+  color: rgb(14, 60, 14);
+}
+
+
+.akshata {
+  height: 395px;
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  transform: translate(78px, 45px);
+  position: absolute;
+  margin-left: 804px;
+  margin-top: -583px;
+
+}
+.whatsapp{
+  height: 40px;
+  float:left;
+  margin-left: 60px;
+  margin-top: -200px;
+}
+.linkedin{
+ 
+  height: 65px;
+  float: left;
+  margin-left: 334px;
+  margin-top: -217px;
+
+}
+.instagram{
+  height: 43px;
+  float: left;
+  margin-left: 259px;
+  margin-top: -205px;
+}
+.facebook{
+  height: 66px;
+  float: left;
+  margin-left: 118px;
+  margin-top: -217px;
+}
+.certificate-pic{
+  display: flex;
+  height: 500px;
+  width: 500px;
+  justify-content: space-between;
+}

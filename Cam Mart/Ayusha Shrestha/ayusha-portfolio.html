@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Ayusha Shrestha Portfolio
+    </title>
+    <link rel="stylesheet" href="stylesp.css"> <!--Link for the css properties of social media icons-->
+    <style>
+        /*giving style using css properties to the profile image*/
+        .ayusha-image {
+            height: 332px;
+            width: 340px;
+            display: flex;
+            justify-content: center;
+            transform: translate(78px, 45px);
+            border-bottom-left-radius: 130px;
+            position: absolute;
+        }
+
+        /*giving style using css properties to the name*/
+        .name {
+            font-size: 35px;
+            font-weight: bolder;
+            padding-top: 140px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #1c3548;
+            transform: translate(20px, -30px);
+        }
+    
+        /*giving style using css properties to the skills section*/
+        .skills {
+            font-size: 20px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #747474;
+            margin-top: -20px;
+            transform: translate(20px, -30px);
+            width: 560px;
+        }
+
+        /*giving style using css properties to the tools section*/
+        .tools{
+            font-size: 18px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #747474;
+            margin-top: 10px;
+            transform: translate(20px, -30px);
+            width: 560px;
+            white-space: pre-line;
+            
+        }
+
+        /*giving style using css properties for certificate section*/
+        .certificate{
+            font-size: 23px;
+            font-weight: 600;
+            font-family: 'Times New Roman', Times, serif;
+            color: #1c3548;
+            margin-top: -1px;
+            transform: translate(22px, -4px);
+            width: 560px;
+            white-space: pre-line;
+        }
+
+        /*giving styles using css properties for the container of main paragraphs*/
+        .main_paragraph_container {
+           
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+
+<body style="background-color: white;" > <!--using inline css for giving background color into white-->
+    
+    <!--This div tag acts as a container for social media icons-->
+    <div class="icon-container">
+
+        <!--Using img tag for icons to put in portfolio and also link tag for providing a way to go to my social media accounts-->
+        <img class="twitter-image" src="twitter-image.png" alt="a twitter image"> 
+        <a href="https://twitter.com/" target="_blank">
+
+        <img class="linkedin-image" src="linkedin-image.png" alt="a linkedin image">
+        <a href="https://www.linkedin.com/in/ayusha-shrestha-775584262/" target="_blank">
+
+        <img class="instagram-image" src="instagram-image.png" alt="a instagram image">
+        <a href="https://www.instagram.com/seolayah_/" target="_blank">
+ 
+        <img class="facebook-image" src="facebook-image.png" alt="a facebook image">
+        <a href="https://www.facebook.com/ayesha.cresta.12" target="_blank"></a>
+        </a>
+    </div>
+
+    <!--This div tag acts as a container for the whole paragraphs-->
+    <div class="main_paragraph_container" >
+        <div class="para_container">
+            <!--Using p tag to write my name  and experience-->
+            <p class="name">Hi! I'm Ayusha Shrestha.</p>
+            <p class="skills">A web developer with experience working with HTML,
+                 CSS and JavaScript. Able to work as both as
+                part of a larger team and individually.
+                I'm currently studying in Itahari Iternational College.
+            </p>
+
+            <!--Here is my tools that I know to use-->
+            <p class="tools">Here are my few tools that I've worked with;
+                            Visual Studio Code
+                            XAMPP 
+                            BlueJ
+                            Balsamiq
+                            Figma
+            </p>
+
+            <!--Giving h4 tag for giving heading to thhe certificate--> 
+            <h4 class="certificate">Certification</h4>
+
+        </div>
+        <!--Main contaier with images and certification images of completing java and dataabase courses-->
+        <div class="main-container">
+            <img class="ayusha-image" src="ayusha-images.png" alt="a portfolio image">
+            <div class="certificate-images">
+                <img class="certificate-java" src="certificate-java.png" alt=" java certificate">
+                <img class="certificate-db" src="certificate-db.png" alt="database certificate">
+              </div>
+              
+        </div>
+    </div>
+</body>
+
+</html>

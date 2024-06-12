@@ -1,0 +1,36 @@
+/*Giving styles using css properties to all the social media icons*/
+.twitter-image{
+    height: 50px;
+    float:left;
+    margin-left: 60px;
+    padding-top: 220px;
+}
+.linkedin-image{
+    height: 50px;
+    float:left;
+    margin-left: -51px;
+    padding-top: 280px;
+}
+.instagram-image{
+    height: 34px;
+    float:left;
+    margin-left: -43px;
+    padding-top: 347px;
+}
+.facebook-image{
+    height: 52px;
+    float:left;
+    margin-left: -78px;
+    padding-top: 400px;
+}
+
+/*Giving styles using css properties to the certificate images*/
+.certificate-images{
+    margin-top: 320px;
+    height: 300px;
+    transform: translate(-552px, 179px);
+    width: 560px;
+    display: flex;
+    justify-content:space-between;
+    
+}
